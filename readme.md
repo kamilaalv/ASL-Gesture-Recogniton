@@ -40,7 +40,7 @@ Unlike static images, **sign language is inherently dynamic** - gestures unfold 
 
 For example, signs like "HELP" and "THANK YOU" might have similar hand shapes but completely different movement patterns - only a memory-enabled model can distinguish between them reliably.
 
-![Architecture Diagram](docs/architecture-diagram.png)
+![Architecture Diagram](docs/architecture_diagram.png)
 
 ## Key Features
 - **Real-time processing** with webcam input
