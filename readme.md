@@ -45,7 +45,7 @@ Try the system immediately: **[Live Demo](https://asl-translation-production.up.
 
 ### Local Setup
 ```bash
-git clone https://github.com/username/ASL-Gesture-Recognition
+git clone https://github.com/kamilaalv/ASL-Gesture-Recogniton.git
 cd ASL-Gesture-Recognition
 pip install -r requirements.txt
-python src/inference/test_camera.py
+python src/dynamic_test_camera.py
