@@ -30,7 +30,17 @@ SignifyPlus uses advanced computer vision and neural networks to:
 3. **Sequence Processing**: LSTM neural network captures temporal dynamics of gestures
 4. **Real-time Prediction**: Outputs recognized signs with confidence scores
 
-![Architecture Diagram](docs/architecture_diagram.png)
+### Why LSTM for Sign Language?
+
+Unlike static images, **sign language is inherently dynamic** - gestures unfold over time with specific movements, speeds, and trajectories that carry meaning. A single frame cannot capture the full context of a sign. This is why we use **LSTM (Long Short-Term Memory)** networks:
+
+- **Temporal Memory**: LSTM remembers previous hand positions and movements, understanding how gestures evolve over time
+- **Sequential Learning**: Captures the flow and rhythm of sign language, distinguishing between similar signs based on their temporal patterns
+- **Context Awareness**: Understands that the same hand shape can mean different things depending on the movement sequence
+
+For example, signs like "HELP" and "THANK YOU" might have similar hand shapes but completely different movement patterns - only a memory-enabled model can distinguish between them reliably.
+
+![Architecture Diagram](docs/architecture-diagram.png)
 
 ## Key Features
 - **Real-time processing** with webcam input
@@ -45,7 +55,8 @@ Try the system immediately: **[Live Demo](https://asl-translation-production.up.
 
 ### Local Setup
 ```bash
-git clone https://github.com/kamilaalv/ASL-Gesture-Recogniton.git
+git clone https://github.com/kamilaalv/ASL-Gesture-Recognition
 cd ASL-Gesture-Recognition
 pip install -r requirements.txt
-python src/dynamic_test_camera.py
+python src/inference/dynamic_test_camera.py
+```
