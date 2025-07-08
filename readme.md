@@ -4,7 +4,7 @@
 
 **SignifyPlus** is an AI-powered system that translates American Sign Language (ASL) gestures into text in real-time. This project addresses the critical communication gap between deaf and hearing communities by providing instant, accurate gesture recognition using computer vision and deep learning.
 
-🚀 **[Live Demo](https://asl-translation-production.up.railway.app/)** | 📱 **[Mobile Version](mobile-repo-link)** | 🏆 **Innovation Award Winner**
+🚀 **[Live Demo](https://asl-translation-production.up.railway.app/)** | 📱 **[Mobile Version]([mobile-repo-link](https://github.com/kamilaalv/ASL-Gesture-Recognition-Mobile))** | 🏆 **Innovation Award Winner**
 
 ## The Problem
 
